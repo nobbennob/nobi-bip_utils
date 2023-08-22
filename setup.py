@@ -103,8 +103,8 @@ version = load_version("bip_utils", "_version.py")
 
 # Setup configuration
 setuptools.setup(
-    name="bip_utils",
-    version=version,
+    name="nobi-bip_utils",
+    version='2.7.2', # forked_version -> '2.7.1',
     author="Emanuele Bellocchia",
     author_email="ebellocchia@gmail.com",
     maintainer="Emanuele Bellocchia",
@@ -112,7 +112,7 @@ setuptools.setup(
     description="Generation of mnemonics, seeds, private/public keys and addresses for different types of cryptocurrencies",
     long_description=load_long_description("README.md"),
     long_description_content_type="text/markdown",
-    url="https://github.com/ebellocchia/bip_utils",
+    url="https://github.com/nobbennob/nobi-bip_utils",
     download_url="https://github.com/ebellocchia/bip_utils/archive/v%s.tar.gz" % version,
     license="MIT",
     test_suite="tests",
